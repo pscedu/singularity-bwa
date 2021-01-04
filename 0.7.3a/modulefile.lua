@@ -1,20 +1,20 @@
 --
--- bwa 0.7.3a modulefile
+-- BWA 0.7.3a modulefile
 --
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Biological Sciences"
 -- "Description: BWA is a software package for mapping low-divergent sequences against a large reference genome, such as the human genome."
 -- "Keywords: singularity bioinformatics"
 
-whatis("Name: bwa")
+whatis("Name: BWA")
 whatis("Version: 0.7.3a")
 whatis("Category: Biological Sciences")
 whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: BWA is a software package for mapping low-divergent sequences against a large reference genome, such as the human genome.")
 
 help([[
-bwa 0.7.3a
---------------
+BWA 0.7.3a
+----------
 
 Description
 -----------
@@ -22,11 +22,11 @@ BWA is a software package for mapping low-divergent sequences against a large re
 
 To load the module type
 
-> module load bwa/0.7.3a
+> module load BWA/0.7.3a
 
 To unload the module type
 
-> module unload bwa/0.7.3a
+> module unload BWA/0.7.3a
 
 Documentation
 -------------
@@ -45,7 +45,7 @@ Tools included in this module are
 * bwa
 ]])
 
-local package = "bwa"
+local package = "BWA"
 local version = "0.7.3a"
 local base    = pathJoin("/opt/packages",package,version)
 prepend_path("PATH", base)

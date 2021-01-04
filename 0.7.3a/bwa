@@ -5,8 +5,8 @@ if [ ! $(command -v singularity) ]; then
 fi
 
 VERSION=0.7.3a
-PACKAGE=bwa
-TOOL=$PACKAGE
+PACKAGE=BWA
+TOOL=bwa
 DIRECTORY=/opt/packages/$PACKAGE/$VERSION
 
 PERSISTENT_FILE_STORAGE=/ocean
