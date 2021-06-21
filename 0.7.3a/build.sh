@@ -1,6 +1,19 @@
 #!/bin/bash
 
-IMAGE=singularity-BWA-0.7.3a.sif
+# Copyright © 2021 Pittsburgh Supercomputing Center.
+# All Rights Reserved.
+
+IMAGE=singularity-tiger-5.32.1.sif
 DEFINITION=Singularity
 
-singularity build --remote $IMAGE $DEFINITION
+if [ -f $IMAGE ]; then
+	rm -fv $IMAGE
+fi
+
+sudo singularity build $IMAGE $DEFINITION
+
+if [ -f $IMAGE ]; then
+	exit 0
+else
+	exit 1
+fi
