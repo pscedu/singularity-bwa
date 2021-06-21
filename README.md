@@ -13,9 +13,9 @@ Copy the
 * `SIF` file
 * and the Perl scripts
 
-to `/opt/packages/bwa/5.32.1`.
+to `/opt/packages/bwa/0.7.3a`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/bwa` as `5.32.1.lua`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/bwa` as `0.7.3a.lua`.
 
 ## Building the image using the recipe
 ### To build the image locally
