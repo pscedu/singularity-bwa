@@ -4,8 +4,8 @@
 ![Stars](https://img.shields.io/github/stars/pscedu/singularity-bwa)
 ![License](https://img.shields.io/github/license/pscedu/singularity-bwa)
 
-# singularity-Bwa
-Singularity recipe for [Bwa](https://github.com/sandialabs/Bwa).
+# singularity-bwa
+Singularity recipe for [bwa](https://github.com/sandialabs/Bwa).
 
 ## Installing the container on Bridges 2
 Copy the
