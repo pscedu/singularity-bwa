@@ -3,7 +3,7 @@
 # Copyright © 2021 Pittsburgh Supercomputing Center.
 # All Rights Reserved.
 
-IMAGE=singularity-tiger-5.32.1.sif
+IMAGE=singularity-bwa-0.7.3a.sif
 DEFINITION=Singularity
 
 if [ -f $IMAGE ]; then
