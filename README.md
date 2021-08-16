@@ -12,7 +12,7 @@ Singularity recipe for [bwa](https://github.com/sandialabs/Bwa).
 Copy the
 
 * `SIF` file
-* and the Perl scripts
+* and the `bwa` script
 
 to `/opt/packages/bwa/0.7.3a`.
 
