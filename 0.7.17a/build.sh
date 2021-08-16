@@ -3,7 +3,7 @@
 # Copyright © 2021 Pittsburgh Supercomputing Center.
 # All Rights Reserved.
 
-IMAGE=singularity-bwa-0.7.17.sif
+IMAGE=singularity-bwa-0.7.17a.sif
 DEFINITION=Singularity
 
 if [ -f $IMAGE ]; then
